@@ -233,6 +233,8 @@ body, html {
 
     #movie-list {
       padding-top: 2rem;
+      float: left;
+      width: 80%;
 
       .movie {
         border-bottom: ridge 2px $dove-gray;
@@ -281,6 +283,7 @@ body, html {
       font-size: 1.15rem;
       margin-bottom: 2rem;
       padding-left: 2rem;
+      float: left;
 
       @media screen and (max-width: $break-small) {
         padding-bottom: 2rem;
